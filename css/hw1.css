@@ -76,8 +76,9 @@
 	
 	@media (min-width: 1px) and (max-width: 767px)
 	{
-				#sushi_out{
-				float:left;
+				.div_out{
+				clear:both;
+				display:block;
 				}
 	}
 	
