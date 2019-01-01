@@ -1,124 +1,83 @@
-/*Apurva*/
-h1 {
-	color:#ffffff;
-	text-transform:uppercase;
+	body{
+	font-family: helvetica;
+	margin:1%;
+	border: 1px grey solid;
 	text-align: center;
-	margin: -20px 0px 30px 0px;
-	padding: 0px;
-}
-
-h2 {
-	color:#000000;
-	text-transform:none;
-	text-align: left;
-	margin: 0px;
-	padding: 0px;
-}
-
-
-nav > a {
-	background: rgba(255,255,255,0.3); 
-	text-decoration: none;
-	text-align: middle;
-	color: black;
-	margin: 40px;
-	padding: 10px 40px 10px 40px;
-	border-radius: 3px;
-}
-
-.active {
-	background: rgba(255,255,255,1); 
-}
-
-
-header {
-	background: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");	
-	margin: 0px;
-	padding: 40px;
-	background-color: #cccccc;
-	width: 65%;
-	height: auto;
-}
-
-section {
-	margin: 5px;
-	padding: 5px;
-	background-color: #a6a6a6;
-	width: 70%;
-}
-
-
-img{
-	width: 180px;
-	height: auto;
-	padding: 0px 0px 0px 0px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	border: 2px black solid;
+	padding: 0px 0px 20px 0px;
 	}
 	
-.left{
-	margin: 0px;
-	padding: 5px;
-	background-color: #808000;
-	width: 15%;
-	height: 100%;
-	float:left;
+	main{
+	margin:1%;
 	padding: 0px 0px 80px 0px;
-}
-
-.right{
-	margin: 5px;
-	padding: 5px;
-	background-color: #ffffff;
-	width: 720px;
+	border-top: 1px grey solid;
+	display: inline-block;
+	}
+	
+	.div_out{
+	box-sizing: border-box;
+	background-color: #f1ebef;
 	float:left;
-}
-
-
-
-th {
-	background: rgb(146,159,79);
-	color: white;
-	height: 28px;
-	font-size: 12px;
-	font-family: helvetica;
-	text-align: center;
-	padding: 0px 30px 0px 30px;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
-
-th:first-child {
+	display: inline-block;
+	width: 350px;
+	height: 300px;
+	margin: 0px;
 	text-align: left;
-	padding: 0px 5px 0px 5px;
-}
-
-tr  > td {
-	height: 28px;
-	font-size: 12px;
-	font-family: helvetica;
+	margin: 10px 10px 10px 10px;
+	border: 2px grey solid;
+	
+	}
+	
+    .div_in{
+	float:right;
+	width: 30%;
+	height: 25px;
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
 	text-align: center;
-	background: rgba(228,245,212,1.0);
-}
-
-tr  > td:first-child {
-	text-align: left;
-	padding: 0px 5px 0px 5px;
-}
-
-tr:hover  td{
-	background: rgba(228,245,240,1.0);
-	box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.2); 
-}
-
-table {
-	margin: auto; /* or margin: 0 auto 0 auto */
-}
-
-/*To curve the bottom, we need to curve the
-row and the element.  And each element needs to 
-curve a different corner.*/
+	border-left: 2px grey solid;
+	border-bottom: 2px grey solid;
+	}
+	
+	.text_out {
+	text-align: justify;
+	font-size: 14px;
+	padding: 35px 10px 10px 10px;
+	}
+	
+	.span_in {
+	text-align: center;
+	font-size: 14px;
+	}
+	
+	#chicken{
+	background-color: #ec9f88;
+	}
+	
+	#beef{
+	background-color: #FF5722;
+	}
+	
+	#sushi{
+	background-color: #ffef63;
+	}
+	
+	@media (min-width: 768px) and (max-width: 991px)
+	{
+				#beef_out{
+				float:right;
+				}
+				
+				#sushi_out{
+				clear:left;
+				width: auto;
+				}
+	}
+	
+	
+	@media (min-width: 1px) and (max-width: 767px)
+	{
+				#sushi_out{
+				float:left;
+				}
+	}
+	
